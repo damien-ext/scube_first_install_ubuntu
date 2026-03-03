@@ -1,0 +1,1 @@
+# scube_first_install_ubuntu
