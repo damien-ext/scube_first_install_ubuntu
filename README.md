@@ -29,6 +29,19 @@ curl https://mise.run | sh
 
 ```
 
+## 2 : GitHub Token
 
-## 2 : AWS CLI
+### Duplicates for mise run to be able to download without being rate limited
+export GITHUB_TOKEN=<JS_CROSSTEAM_GITHUB_TOKEN> # Duplicated for having
+
+## 3 : Clone scube and first run
+
+```
+git clone git@github.com:operationcanard/scube.git
+cd scube
+mise run
+# Select configure
+```
+
+## 4 : AWS CLI
 - [To configure AWS CLI in your environment to use the SRE platform, follow ](https://cip.docs.safran-ai.tech/how-to/cloud-aws/connect_platform) ACCESS NOT GRANTED
